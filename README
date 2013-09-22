@@ -1,0 +1,10 @@
+Assumed hiera.yaml:
+
+    :backends:
+      - yaml
+
+    :yaml:
+      :datadir: <path to repo>/hieradata
+
+    :hierarchy:
+      - common
